@@ -30,8 +30,8 @@ module.exports = {
     }),
     new StyleLintPlugin({
       configFile: '.stylelintrc',
-      context: 'src',
-      files: '**/*.css',
+      context: 'src/style',
+      files: '**/*.js',
       failOnError: false,
       quiet: false,
       emitErrors: true,
