@@ -10,7 +10,7 @@
 		"start": "webpack-dev-server --open --hot --mode development",
 		"build": "webpack --mode production",
 		"lint": "eslint --debug src/**/*.js",
-		"style": "stylelint src/**/*.js",
+		"style": "stylelint src/**/*.{js,css,scss}",
 		"pretty": "eslint --debug src/**/*.js --fix"
 	},
 	"repository": {
