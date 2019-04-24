@@ -1,4 +1,4 @@
-const HtmlWebPackPlugin = require('html-webpack-plugin');
+const HTMLWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   module: {
@@ -23,8 +23,8 @@ module.exports = {
     ],
   },
   plugins: [
-    new HtmlWebPackPlugin({
-      template: 'src/index.html',
+    new HTMLWebPackPlugin({
+      template: './src/index.html',
       filename: './index.html',
     }),
   ],
