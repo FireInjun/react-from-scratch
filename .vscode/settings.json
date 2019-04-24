@@ -9,12 +9,6 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
-  "explorer.sortOrder": "type",
-  "workbench.colorTheme": "Cobalt2",
-  "workbench.iconTheme": "material-icon-theme",
-  "explorer.confirmDragAndDrop": false,
-  "files.autoSave": "onFocusChange",
-  "eslint.alwaysShowStatus": true,
   "eslint.autoFixOnSave": true,
   "files.eol": "\n",
   "[javascript]": {
