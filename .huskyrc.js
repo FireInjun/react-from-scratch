@@ -1,6 +1,6 @@
 module.exports = {
 	hooks: {
 		'pre-commit': 'lint-staged',
-		'pre-push': 'npm run pretty'
+		'pre-push': 'eslint --debug src/**/*.js --fix'
 	}
 };
